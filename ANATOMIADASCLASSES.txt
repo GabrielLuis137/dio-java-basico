@@ -1,0 +1,88 @@
+ANATOMIA DAS CLASSES 1
+
+EXPLICACAO DO CODIGO.
+
+public class MinhaClasse {: Esta linha inicia a declaração de uma classe Java chamada MinhaClasse. 
+No Java, um programa começa com a definição de classes, 
+e cada programa Java deve conter pelo menos uma classe com um método main para ser executado.
+
+
+
+
+public static void main(String[] args) {: Esta linha define o método main. O método main é o ponto de entrada de um programa Java. Aqui estão os detalhes:
+public: Este é um modificador de acesso que indica que o método main é acessível de fora da classe. Isso significa que ele pode ser chamado de fora da classe.
+static: Este é um modificador que indica que o método main pertence à classe em si, não a uma instância específica da classe. Isso permite que o método main seja chamado sem criar um objeto da classe.
+void: Isso significa que o método main não retorna nenhum valor.
+main: Este é o nome do método. É um nome especial que indica o ponto de entrada do programa.
+String[] args: Isso é um parâmetro que o método main aceita. Ele recebe um array de strings chamado args. Esse parâmetro é usado para passar argumentos da linha de comando para o programa quando ele é executado.
+java
+
+
+System.out.print("Ola Mundo, estou no Java");: Esta linha usa a classe System para escrever uma mensagem no console. Aqui estão os detalhes:
+System: É uma classe no pacote java.lang que fornece acesso a vários recursos do sistema, como entrada/saída padrão.
+out: É uma instância da classe PrintStream associada à saída padrão (normalmente, a tela). Você pode usar System.out para imprimir informações no console.
+print: Este é um método da classe PrintStream que imprime texto na saída padrão (console) sem adicionar uma nova linha após o texto. Isso significa que o próximo texto impresso será na mesma linha.
+"Ola Mundo, estou no Java": Este é o texto que será impresso no console. Neste caso, é a mensagem "Ola Mundo, estou no Java".
+Portanto, o código que você forneceu define uma classe chamada MinhaClasse com um método main que imprime a mensagem "Ola Mundo, estou no Java" no console quando o programa é executado. 
+O método main é o ponto de entrada do programa e é onde a execução do programa começa.
+
+
+
+EXPLICACAO DE CLASSES
+
+String é uma classe no Java que representa sequências de caracteres. Ela é usada para manipular texto. Em seu código, você declarou o parâmetro String[] args no método main, que é um array de strings. 
+Isso permite que você passe argumentos da linha de comando para o programa quando ele é executado.
+
+System é uma classe no Java que fornece acesso a recursos do sistema, como entrada/saída padrão, erro padrão e propriedades do sistema. 
+System é uma classe da biblioteca padrão do Java e contém membros estáticos, como out e err, que são objetos da classe PrintStream.
+
+out é uma instância da classe PrintStream associada à saída padrão. É um objeto que permite a saída de dados para o console. out possui métodos como print e println para imprimir dados no console.
+
+Portanto, enquanto String é uma classe que representa texto, 
+System e out são instâncias de classes diferentes que fazem parte da biblioteca padrão do Java e fornecem funcionalidades específicas, como gerenciar a saída padrão (console). 
+É importante entender essa estrutura de classes e objetos no Java para trabalhar efetivamente com a linguagem.
+
+
+
+EXPLICACAO DE ORIENTACAO A OBJETOS
+
+Na linguagem Java, que é orientada a objetos, um "objeto" é uma instância de uma classe. No exemplo que você forneceu:
+
+java
+Copy code
+public class MinhaClasse {
+    
+    public static void main(String[] args) {
+        System.out.print("Ola Mundo, estou no Java");
+    }
+}
+Não há criação de objetos de classe personalizados. No entanto, existem objetos de classes da biblioteca padrão do Java sendo usados implicitamente:
+
+System é uma classe da biblioteca padrão do Java. System.out é uma instância estática da classe PrintStream. Embora não seja criado explicitamente no código, 
+você está usando o objeto System.out para imprimir texto no console. Neste caso, System.out é um objeto da classe PrintStream.
+
+A classe String também é parte da biblioteca padrão do Java. Em Java, quando você cria uma string, está criando um objeto da classe String. Por exemplo, 
+quando você coloca uma string entre aspas duplas, como "Ola Mundo, estou no Java", você está criando um objeto da classe String com o conteúdo especificado.
+
+Em Java, a orientação a objetos significa que você trabalha com classes e objetos. As classes definem o comportamento e as propriedades dos objetos,
+ e os objetos são instâncias concretas das classes. No exemplo fornecido, você está usando objetos das classes System e String da biblioteca padrão do Java, 
+
+
+
+ANATOMIA DAS CLASSES 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mas não está criando seus próprios objetos de classe personalizados.
