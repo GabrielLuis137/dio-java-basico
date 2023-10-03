@@ -7,7 +7,7 @@ public class tiposdeoperadores {
        
        concatenacao = 1+1+1+"1";
 
-            System.out.println(concatenacao)
+            System.out.println(concatenacao);
        concatenacao = 1+"1"+1+1;
             System.out.println(concatenacao);
 
@@ -19,8 +19,7 @@ public class tiposdeoperadores {
        concatenacao = "1"+(1+1+1);
             System.out.println(concatenacao);
 
-
-        
+      
 
        
     }
@@ -30,5 +29,5 @@ public class tiposdeoperadores {
         
     }
     
-}
+
 

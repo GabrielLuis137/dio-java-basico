@@ -3,8 +3,8 @@ public class TiposVariaveis {
     public static void main(String[] args) throws Exception {
         //tipos primitivos
         //estudar a classe String que representa texto na aplicacao
-
-        String meuNome= "Gabriel Luis"
+        /* 
+        String meuNome= "Gabriel Luis";
 
         double salarioMinimo = 2500;
 
@@ -22,7 +22,7 @@ public class TiposVariaveis {
 
         final double VALOR_DE_PI = 3.14;
 
-        VALOR_DE_PI = 10.75;
+      VALOR_DE_PI = 10.75; */
 
         
     }
