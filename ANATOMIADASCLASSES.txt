@@ -69,7 +69,9 @@ Em Java, a orientação a objetos significa que você trabalha com classes e obj
 
 
 
-ANATOMIA DAS CLASSES 2
+TIPOS PRIMITIVOS
+
+INT, BYTE, SHORT, LONG, FLOAT, DOUBLE, BOOLEAN E CHAR  esses nao sao considerados objetos.
 
 
 
